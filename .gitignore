@@ -1,0 +1,26 @@
+# --- Secretos: NUNCA versionar ---
+.env
+.env.*
+!.env.example
+
+# --- Datos locales (contienen chat_id de usuarios) ---
+*.db
+*.db-journal
+*.sqlite3
+
+# --- Entornos virtuales ---
+bot/
+venv/
+.venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.log
+
+# --- Editores / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
